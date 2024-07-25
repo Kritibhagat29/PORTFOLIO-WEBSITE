@@ -348,26 +348,26 @@ section{
     }
 }
 
-.radial-bars{
+.radial-bars {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-   
 }
 
-.radial-bars .radial-bar{
+.radial-bars .radial-bar {
     width: 50%;
     height: 170px;
     margin-bottom: 10px;
     position: relative;
 }
 
-.radial-bars .radial-bar svg{
+.radial-bars .radial-bar svg {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%); /* Adjust the position to center the SVG */
 }
 
 @keyframes slideRight {
