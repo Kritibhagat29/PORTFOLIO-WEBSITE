@@ -189,6 +189,7 @@ body {
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
+    margin-top: 50px;
 }
 
 .sub-title span {
@@ -198,13 +199,20 @@ body {
 section {
     display: flex;
     flex-wrap: wrap;
+    
 }
-
+.skills-container{
+    width: 100%;
+    display: flex;
+    margin-left: -50px;
+    
+}
 .container1 {
     width: 600px;
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
+    margin-top: -55px;
 }
 
 .heading1{
@@ -351,13 +359,15 @@ section {
     }
 }
 
+
 /* Skills Radial Bars */
-.radial-bars {
-    width: 100%;
+.main-radial-bars{
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 25px;
 }
 
 .radial-bars .radial-bar {
@@ -365,6 +375,7 @@ section {
     height: 170px;
     margin-bottom: 10px;
     position: relative;
+    margin-left: 35px;
 }
 
 .radial-bars .radial-bar svg {
@@ -451,6 +462,7 @@ section {
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
+
 
 @keyframes slideRight {
     0% {
